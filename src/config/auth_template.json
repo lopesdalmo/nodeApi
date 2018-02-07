@@ -1,0 +1,4 @@
+// key used for generating token to forgot password email
+{
+  "secret": ""
+}

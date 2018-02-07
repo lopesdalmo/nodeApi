@@ -1,0 +1,7 @@
+// informations about mailer server
+{
+	"host": "",
+	"port": "",
+	"user": "",
+	"pass": ""
+}
