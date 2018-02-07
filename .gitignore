@@ -58,3 +58,4 @@ typings/
 .env
 
 src/config/auth.json
+src/config/mail.json

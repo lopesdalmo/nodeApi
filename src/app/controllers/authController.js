@@ -57,7 +57,6 @@ router.post('/forgot_password', async (req, res) => {
   const { email } = req.body;
 
   try {
-
     const user = await User.findOne({ email });
 
     if (!user)
@@ -116,7 +115,6 @@ router.post('/reset_password', async (req, res) => {
     await user.save();
 
     res.send();
-
   } catch (err) {
     res.status(400).send({ error: 'Error on forgot password, try again'})
   }
